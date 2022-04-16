@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.saucedemo.Testclass.TC02Addtocartfunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC02Addtocartfunctionality -->
+      <class name="com.saucedemo.Testclass.TC05checkoutfunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="checkoutfunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC05checkoutfunctionality -->
+      <class name="com.saucedemo.Testclass.TC04Addmultipleitem">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="addmultipleitem"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC04Addmultipleitem -->
+      <class name="com.saucedemo.Testclass.TC01loginfunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="loginfunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC01loginfunctionality -->
+      <class name="com.saucedemo.Testclass.TC03Logoutfunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="logoutfunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC03Logoutfunctionality -->
+      <class name="com.saucedemo.Testclass.TC07Continuefunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="continuefunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC07Continuefunctionality -->
+      <class name="com.saucedemo.Testclass.TC08infofunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="teardownMethod"/>
+          <include name="infofunctionality"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC08infofunctionality -->
+      <class name="com.saucedemo.Testclass.TC06Removeitemfunctionality">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="removeitemfunctionality"/>
+          <include name="teardownMethod"/>
+        </methods>
+      </class> <!-- com.saucedemo.Testclass.TC06Removeitemfunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
